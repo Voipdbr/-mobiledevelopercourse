@@ -1,0 +1,15 @@
+clientes
+clientes
+0|id|integer|0||1
+1|nome|varchar(100)|0||0
+2|cpf|varchar(11)|0||0
+3|email|varchar(20)|0||0
+4|fone|varchar(20)|0||0
+5|uf|varchar(20)|0||0
+6|bloqueado|boolean|0||0
+clientes
+clientes
+1           regis       00000000000  rg@test.com  11000000000  SP          1         
+2           Abigail     00000000000  abigail@tes  11000000000  RJ          1         
+3           Benedito    00000000000  benedito@te  11000000000  SP          0         
+4           Zacarias    00000000000  zacarias@te  11000000000  RJ          1         

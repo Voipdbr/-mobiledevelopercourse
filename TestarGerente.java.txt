@@ -1,0 +1,23 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package CORRENTISTAS;
+
+/**
+ *
+ * @author senaij01
+ */
+public class TestarGerente {
+public static void main (String []args){
+Gerente ger = new Gerente();
+System.out.println ("Salario atual do gerente: " + ger.salario + "\n");
+System.out.println("O gerente: " + ger.nome + " recebera um aumento de salário em 10% \n");
+ger.aumentarSalario();
+System.out.println("Salario atual do gerente: " + ger.salario);
+System.out.println("\n O gerente: " + ger.nome + " receberá um aumento de salário em 20% \n");
+ger.aumentarSalarioVariavel(0.2);
+System.out.println("Salario atual do gerente: " + ger.salario);
+}
+}

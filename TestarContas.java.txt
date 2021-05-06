@@ -1,0 +1,25 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package CORRENTISTAS;
+
+/**
+ *
+ * @author senaij01
+ */
+public class TestarContas {
+public static void main (String []args){
+Conta c = new Conta();
+
+c.depositar(9578.90);
+c.impExtratos();
+c.sacar(250);
+c.impExtratos();
+double saldoDisponivel = c.consultaSaldoDisponivel();
+System.out.println ("Seu saldo disponivel e de: " +
+saldoDisponivel);
+
+}
+}
